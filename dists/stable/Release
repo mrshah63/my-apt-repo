@@ -1,0 +1,20 @@
+Origin: DarkMatter Repo
+Label: DarkMatter
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Date: Sat, 11 Oct 2025 17:48:56 +0000
+Description: APT repository for DarkMatter Linux tools
+
+MD5Sum:
+ 9a8dd0aa486ed094e97e7b057f72661e 7890 main/binary-amd64/Packages
+ 26838d37e173ed7482bbb541a4ce0b22 3299 main/binary-amd64/Packages.gz
+
+SHA1:
+ a8908db1b126603302be81891fa269a55844ac74 7890 main/binary-amd64/Packages
+ 0dbcebf839b0223e58d0746672d68b1fc8766f47 3299 main/binary-amd64/Packages.gz
+
+SHA256:
+ 9c32401325148bb97885cce22d6265247fa4489d52dd8f19e307897daf1a4481 7890 main/binary-amd64/Packages
+ a3765634d23aa35f58a8c6c43d9bc10365a14831ec07604a798f1d372f3409e6 3299 main/binary-amd64/Packages.gz

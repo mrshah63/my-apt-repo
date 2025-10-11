@@ -1,0 +1,30 @@
+Origin: DarkMatter Repo
+Label: DarkMatter
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: DarkMatter Custom APT Repository
+
+# Date: Fri, 10 Oct 2025 11:46:03 +0000
+MD5Sum:
+ a0679c8d0a907f918f5c0e3539c7fa83               38 Release
+ 1f3e1ecac0225d95667a64d2703365c8             5983 main/binary-amd64/Packages
+ e29810f14120021bcfb19f35a6e9ef24             2453 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/i18n/Translation-en
+SHA1:
+ d032ea69ad1caa30b9c49eef64c0e31dcf55e7c2               38 Release
+ 7c5df544bd960c39e48341719aecedc5e7093033             5983 main/binary-amd64/Packages
+ f923a75f46c10fac9656abaec230d4d85d8da8c7             2453 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/i18n/Translation-en
+SHA256:
+ 9f3c8494017be25a4892deab120710c76ea27072274d97beda9d9ca2a681d8ab               38 Release
+ 52760dd90cc91be364eab8e5e2adacc758e33856cbc4ce94b29b3e506a5781e6             5983 main/binary-amd64/Packages
+ ef7b0c12f6179c53d3297e593597d755a699855d470bbf73644c8f2856827031             2453 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/i18n/Translation-en
+SHA512:
+ 5a483678a72c47a52a7a5cc78fc3b1555b7cc7423b0f9b71c96ebc3fc262a994fa2c7713079891028d508855873e85a96deb85faf1132dafca155c9bb327d479               38 Release
+ 09e203d2a41f5fdeaef0669ac7a575623b2b771b846cd14d4e39efbc2eb05729b0c4cc0d96385866618a11346565ddfb56e6ea9c138dc09b5510049cad041164             5983 main/binary-amd64/Packages
+ d277ba1af589fb3ea3ce908e6dff6a9052fc7018c69f790925c00bb61173b807bc385d26bbbe7e719efe8aaf6966ecf2dcf8b76a34267deb9ca0a74caf3ef526             2453 main/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/i18n/Translation-en
