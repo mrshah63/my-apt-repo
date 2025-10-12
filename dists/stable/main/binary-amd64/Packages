@@ -1,7 +1,7 @@
 Package: anydesk
 Version: 7.0.2
 Architecture: amd64
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/anydesk_7.0.2-1_amd64.deb
+Filename: releases/download/v1.0/anydesk_7.0.2-1_amd64.deb
 Size: 14706372
 MD5sum: cdcdc92faa55781086cf9de0b70a569c
 SHA1: 2e7ec191a199de59e46d24d1f9fbd20f2583faf9
@@ -13,7 +13,7 @@ Description: Custom package anydesk
 Package: apache-netbeans
 Version: 25-1
 Architecture: all
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/apache-netbeans_25-1_all.deb
+Filename: releases/download/v1.0/apache-netbeans_25-1_all.deb
 Size: 433072012
 MD5sum: ed8be38eee09ea61580c4e0ad969e394
 SHA1: bad21fb4058365802c044535ca090a76a6af13b3
@@ -25,7 +25,7 @@ Description: Custom package apache-netbeans
 Package: balena-etcher
 Version: 2.1.4
 Architecture: amd64
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/balena-etcher_2.1.4_amd64.deb
+Filename: releases/download/v1.0/balena-etcher_2.1.4_amd64.deb
 Size: 123924010
 MD5sum: a6e447ec4d343c1e63d5d031992f2ff0
 SHA1: 1bc00364e107eb67aa1e12079f3eeca575c9d07c
@@ -37,7 +37,7 @@ Description: Custom package balena-etcher
 Package: code
 Version: 1.104.1-1758154125
 Architecture: amd64
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/code_1.104.1-1758154125_amd64.deb
+Filename: releases/download/v1.0/code_1.104.1-1758154125_amd64.deb
 Size: 113131966
 MD5sum: d5145474e9e7aa437f0ca474bd6f2b45
 SHA1: c5f873a38a3805b765ebebb1950fd22242acba72
@@ -49,7 +49,7 @@ Description: Custom package code
 Package: freedownloadmanager
 Version: 6.29.1.6392
 Architecture: amd64
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/freedownloadmanager.deb
+Filename: releases/download/v1.0/freedownloadmanager.deb
 Size: 42515296
 MD5sum: 5c0825ea05e7dfa38942603d89da59e9
 SHA1: 2ee8dc2ce78d3448ea6cbe30bbaef027689a98e1
@@ -61,7 +61,7 @@ Description: Custom package freedownloadmanager
 Package: google-chrome-stable
 Version: 139.0.7258.66-1
 Architecture: amd64
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/google-chrome-stable_current_amd64.deb
+Filename: releases/download/v1.0/google-chrome-stable_current_amd64.deb
 Size: 118582344
 MD5sum: 84cfdfd93b061a21601627b75ba00790
 SHA1: 006436f06b241fdd428d868446ac3e231c764200
@@ -73,7 +73,7 @@ Description: Custom package google-chrome-stable
 Package: intellij-idea-community
 Version: 2024.2.2
 Architecture: amd64
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/intellij.deb
+Filename: releases/download/v1.0/intellij.deb
 Size: 659828290
 MD5sum: b0cb256fcdb53fae1eeaaf2d38659b1b
 SHA1: f37fec65652fe7f37b1ef3fb8e8075f1e481fbb1
@@ -85,7 +85,7 @@ Description: Custom package intellij-idea-community
 Package: redpanda-cpp
 Version: 0.14.2-1
 Architecture: amd64
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
+Filename: releases/download/v1.0/redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
 Size: 2453180
 MD5sum: a9784fef18c725fe46b360820f1cd5c3
 SHA1: aa5681ef0c4c9f30174264030774a283b4c0bb5a
