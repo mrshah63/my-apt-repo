@@ -20,7 +20,7 @@ Version: 25-1
 Architecture: all
 Maintainer: NetBeans Mailing List <users@netbeans.apache.org>
 Recommends: java11-sdk
-Filename: pool/main/apache-netbeans_25-1_all.deb
+Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/apache-netbeans_25-1_all.deb
 Size: 433072012
 MD5sum: ed8be38eee09ea61580c4e0ad969e394
 SHA1: bad21fb4058365802c044535ca090a76a6af13b3
