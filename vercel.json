@@ -1,11 +1,16 @@
 {
-  "version": 2,
-  "public": true,
-  "builds": [
-    { "src": "pool/main/**", "use": "@vercel/static" },
-    { "src": "dists/**", "use": "@vercel/static" }
-  ],
+  "version": 3,
+  "functions": {
+    "api/apache-netbeans.js": {
+      "runtime": "nodejs22.x",
+      "memory": 1024,
+      "maxDuration": 900
+    }
+  },
   "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
+    {
+      "src": "/pool/main/apache-netbeans_25-1_all.deb",
+      "dest": "/api/apache-netbeans.js"
+    }
   ]
 }
