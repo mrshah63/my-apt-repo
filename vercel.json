@@ -1,11 +1,11 @@
 {
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600" },
-        { "key": "Content-Type", "value": "application/octet-stream" }
-      ]
-    }
+  "version": 2,
+  "public": true,
+  "builds": [
+    { "src": "pool/main/**", "use": "@vercel/static" },
+    { "src": "dists/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
