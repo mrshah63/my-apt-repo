@@ -52,3 +52,4 @@ SHA256:
 EOF
 
 echo "✅ Release file rebuilt successfully!"
+
