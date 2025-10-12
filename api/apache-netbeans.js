@@ -1,16 +1,25 @@
-import fetch from 'node-fetch';
+import fetch from "node-fetch";
 
 export default async function handler(req, res) {
-  const url = 'https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/apache-netbeans_25-1_all.deb';
-  
-  const response = await fetch(url);
-  const headers = Object.fromEntries(response.headers.entries());
+  try {
+    const githubUrl =
+      "https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/apache-netbeans_25-1_all.deb";
 
-  // Pass through essential headers
-  res.setHeader('Content-Type', headers['content-type'] || 'application/octet-stream');
-  res.setHeader('Content-Disposition', 'attachment; filename=apache-netbeans_25-1_all.deb');
-  res.setHeader('Content-Length', headers['content-length'] || '');
+    const response = await fetch(githubUrl);
 
-  // Stream the file
-  response.body.pipe(res);
+    if (!response.ok) {
+      return res.status(response.status).send("Failed to fetch .deb from GitHub");
+    }
+
+    // Set headers for APT client
+    res.setHeader("Content-Type", "application/vnd.debian.binary-package");
+    res.setHeader("Content-Disposition", "attachment; filename=apache-netbeans_25-1_all.deb");
+    res.setHeader("Cache-Control", "public, max-age=0, must-revalidate");
+
+    // Stream the response to the client
+    response.body.pipe(res);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("Internal Server Error");
+  }
 }
