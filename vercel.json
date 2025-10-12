@@ -1,23 +1,19 @@
 {
   "version": 2,
-   "public": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/$1" }
-  ],
   "builds": [
     {
       "src": "api/serve-file.js",
       "use": "@vercel/node"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/pool/(.*)",
-      "dest": "/api/serve-file.js?file=$1"
+      "source": "/pool/(.*)",
+      "destination": "/api/serve-file.js?file=$1"
     },
     {
-      "src": "/dists/(.*)",
-      "dest": "/api/serve-file.js?file=$1"
+      "source": "/dists/(.*)",
+      "destination": "/api/serve-file.js?file=$1"
     }
   ]
 }
