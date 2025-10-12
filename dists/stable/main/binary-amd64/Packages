@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: AnyDesk Software GmbH <linux-support@anydesk.com>
 Installed-Size: 38952
 Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk-3-0, libstdc++6 (>= 4.1.1), libx11-6, libxcb-shm0, libxcb1, libpango-1.0-0, libcairo2, libxrandr2 (>= 1.3), libx11-xcb1, libxtst6, libxfixes3, libxdamage1, libxkbfile1, libgl1
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/anydesk_7.0.2-1_amd64.deb
+Filename: pool/main/anydesk_7.0.2-1_amd64.deb
 Size: 14706372
 MD5sum: cdcdc92faa55781086cf9de0b70a569c
 SHA1: 2e7ec191a199de59e46d24d1f9fbd20f2583faf9
@@ -20,7 +20,7 @@ Version: 25-1
 Architecture: all
 Maintainer: NetBeans Mailing List <users@netbeans.apache.org>
 Recommends: java11-sdk
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/apache-netbeans_25-1_all.deb
+Filename: pool/main/apache-netbeans_25-1_all.deb
 Size: 433072012
 MD5sum: ed8be38eee09ea61580c4e0ad969e394
 SHA1: bad21fb4058365802c044535ca090a76a6af13b3
@@ -36,7 +36,7 @@ Installed-Size: 419898
 Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libasound2, libatk1.0-0, libc6, libcairo2, libcups2, libdbus-1-3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, liblzma5, libnspr4, libpango1.0-0 | libpango-1.0-0, libstdc++6, libx11-6, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrandr2, libxrender1, libxss1, polkit-1-auth-agent | policykit-1-gnome | polkit-kde-1
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/balena-etcher_2.1.4_amd64.deb
+Filename: pool/main/balena-etcher_2.1.4_amd64.deb
 Size: 123924010
 MD5sum: a6e447ec4d343c1e63d5d031992f2ff0
 SHA1: 1bc00364e107eb67aa1e12079f3eeca575c9d07c
@@ -60,7 +60,7 @@ Recommends: libvulkan1
 Conflicts: visual-studio-code
 Replaces: visual-studio-code
 Provides: visual-studio-code
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/code_1.104.1-1758154125_amd64.deb
+Filename: pool/main/code_1.104.1-1758154125_amd64.deb
 Size: 113131966
 MD5sum: d5145474e9e7aa437f0ca474bd6f2b45
 SHA1: c5f873a38a3805b765ebebb1950fd22242acba72
@@ -79,7 +79,7 @@ Version: 6.29.1.6392
 Architecture: amd64
 Maintainer: Freedownloadmanager Team <support@freedownloadmanager.org>
 Depends: openssl, xdg-utils, ffmpeg, bubblewrap
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/freedownloadmanager.deb
+Filename: pool/main/freedownloadmanager.deb
 Size: 42515296
 MD5sum: 5c0825ea05e7dfa38942603d89da59e9
 SHA1: 2ee8dc2ce78d3448ea6cbe30bbaef027689a98e1
@@ -98,7 +98,7 @@ Installed-Size: 377839
 Pre-Depends: dpkg (>= 1.14.0)
 Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.35), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2)
 Provides: www-browser
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/google-chrome-stable_current_amd64.deb
+Filename: pool/main/google-chrome-stable_current_amd64.deb
 Size: 118582344
 MD5sum: 84cfdfd93b061a21601627b75ba00790
 SHA1: 006436f06b241fdd428d868446ac3e231c764200
@@ -112,7 +112,7 @@ Package: intellij-idea-community
 Version: 2024.2.2
 Architecture: amd64
 Maintainer: Syed Hamza Ali <your_email@example.com>
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/intellij.deb
+Filename: pool/main/intellij.deb
 Size: 659828290
 MD5sum: b0cb256fcdb53fae1eeaaf2d38659b1b
 SHA1: f37fec65652fe7f37b1ef3fb8e8075f1e481fbb1
@@ -128,7 +128,7 @@ Architecture: amd64
 Maintainer: royqh1979@gmail.com
 Installed-Size: 6566
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 9), gcc, g++, make, gdb, gdbserver, qterminal
-Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
+Filename: pool/main/redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
 Size: 2453180
 MD5sum: a9784fef18c725fe46b360820f1cd5c3
 SHA1: aa5681ef0c4c9f30174264030774a283b4c0bb5a
