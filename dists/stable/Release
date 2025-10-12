@@ -4,13 +4,25 @@ Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
-Date: Sun, 12 Oct 2025 07:13:29 +0000
 Description: APT repository for DarkMatter Linux tools
-
+Date: Sun, 12 Oct 2025 08:49:22 +0000
 MD5Sum:
-  1b331aefecc6ad8266e5da6b2086ab6d 1234 main/binary-amd64/Packages.gz
-  1d5a43e074c19c38a65da10055593cae 3829 main/binary-amd64/Packages
-
+ d915739e56661aa708bf4b24a262da31               38 Release
+ 9a8dd0aa486ed094e97e7b057f72661e             7890 main/binary-amd64/Packages
+ b2ce16a7fed6377348e9307a876eb7f5             3300 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/i18n/Translation-en
+SHA1:
+ 5adb56fece84ce2d67dced4b5f4fd54ae06d5d59               38 Release
+ a8908db1b126603302be81891fa269a55844ac74             7890 main/binary-amd64/Packages
+ 5fdce8e57627aee644c3f584cc6da4bcca99ba17             3300 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/i18n/Translation-en
 SHA256:
-  dba19d1edf940cb4469da2a41d717b102f3b75734d30250faae87961508e479f 1234 main/binary-amd64/Packages.gz
-  7ec2a530aec4403f28d76fde880c9b5df642691a65c07a18540946b4d3f1e7de 3829 main/binary-amd64/Packages
+ bb848f822650cfc50ad67b413bf540d4767fcb633f90e1451d309f3469967336               38 Release
+ 9c32401325148bb97885cce22d6265247fa4489d52dd8f19e307897daf1a4481             7890 main/binary-amd64/Packages
+ 79f54f860b904be3ec50dda8c0b1a54e0f7741bf25cce2e1ed3e93d789d9c566             3300 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/i18n/Translation-en
+SHA512:
+ c64dc339302320ad238904ccc6a66d72217be33755ae71d1e9a985eb05f49ccba18aefdda7ccbd519ebb68ce7eac708894b6373463228acc2d9bb4ace2fe920a               38 Release
+ ccf61199f2709ab530e9e4184dc077bd0b355ba9953cb7f2cc4c7db7f19ad999187f55e348a7a212eaefdc3244c1339b469549e66082f11b89fdf66a341be6e2             7890 main/binary-amd64/Packages
+ c293157a81a80561d1a59499be8f36506c1d1caa2617b0b14c3f22bfa0c339a77733ede785cc19b7e2458f0ac84289fc3650f8a422ce7110fa02b42b9ef249ad             3300 main/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/i18n/Translation-en
