@@ -2,15 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/apache-netbeans.js",
-      "use": "@vercel/node",
-      "config": { "maxLambdaSize": "50mb" }
+      "src": "api/serve-file.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/pool/main/apache-netbeans_25-1_all.deb",
-      "dest": "/api/apache-netbeans.js"
+      "src": "/pool/(.*)",
+      "dest": "/api/serve-file.js?file=$1"
+    },
+    {
+      "src": "/dists/(.*)",
+      "dest": "/api/serve-file.js?file=$1"
     }
   ]
 }
