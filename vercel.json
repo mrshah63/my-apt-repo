@@ -2,9 +2,8 @@
   "version": 2,
   "functions": {
     "api/apache-netbeans.js": {
-      "runtime": "nodejs22.x",
-      "memory": 1024,
-      "maxDuration": 300
+      "memory": 1024
+
     }
   },
   "routes": [
