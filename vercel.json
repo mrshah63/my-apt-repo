@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "functions": {
-    "api/apache-netbeans.js": {
-      "memory": 1024
-
+  "builds": [
+    {
+      "src": "api/apache-netbeans.js",
+      "use": "@vercel/node",
+      "config": { "maxLambdaSize": "50mb" }
     }
-  },
+  ],
   "routes": [
     {
       "src": "/pool/main/apache-netbeans_25-1_all.deb",
