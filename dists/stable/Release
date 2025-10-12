@@ -4,13 +4,13 @@ Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
-Date: Sat, 11 Oct 2025 20:24:29 +0000
+Date: Sun, 12 Oct 2025 07:13:29 +0000
 Description: APT repository for DarkMatter Linux tools
 
 MD5Sum:
-  9a8dd0aa486ed094e97e7b057f72661e dists/stable/main/binary-amd64/Packages
-  c23a4e11c2311a043a806c6871b821a4 dists/stable/main/binary-amd64/Packages.gz
+  1b331aefecc6ad8266e5da6b2086ab6d 1234 main/binary-amd64/Packages.gz
+  1d5a43e074c19c38a65da10055593cae 3829 main/binary-amd64/Packages
 
 SHA256:
-  9c32401325148bb97885cce22d6265247fa4489d52dd8f19e307897daf1a4481 dists/stable/main/binary-amd64/Packages
-  7660a6803e8b8d2a3124ac6714fc63fee03a351f89e0c85199b76ca9617bbccc dists/stable/main/binary-amd64/Packages.gz
+  dba19d1edf940cb4469da2a41d717b102f3b75734d30250faae87961508e479f 1234 main/binary-amd64/Packages.gz
+  7ec2a530aec4403f28d76fde880c9b5df642691a65c07a18540946b4d3f1e7de 3829 main/binary-amd64/Packages
