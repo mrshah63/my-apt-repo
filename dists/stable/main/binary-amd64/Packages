@@ -1,7 +1,6 @@
 Package: anydesk
-Version: 1.0
+Version: 7.0.2
 Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/anydesk_7.0.2-1_amd64.deb
 Size: 14706372
 MD5sum: cdcdc92faa55781086cf9de0b70a569c
@@ -9,12 +8,11 @@ SHA1: 2e7ec191a199de59e46d24d1f9fbd20f2583faf9
 SHA256: 74170b9f16538576b9f8390c5ab3e5810ef2167ba7c72ed1b63f8ed32c8ebdb7
 Section: custom
 Priority: optional
-Description: Custom package anydesk_7.0.2-1_amd64.deb
+Description: Custom package anydesk
 
 Package: apache-netbeans
-Version: 1.0
-Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
+Version: 25-1
+Architecture: all
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/apache-netbeans_25-1_all.deb
 Size: 433072012
 MD5sum: ed8be38eee09ea61580c4e0ad969e394
@@ -22,12 +20,11 @@ SHA1: bad21fb4058365802c044535ca090a76a6af13b3
 SHA256: 56b5980ad08f726cd4ab150cf9cce202688be6e4784a48436d69dd77500fb09e
 Section: custom
 Priority: optional
-Description: Custom package apache-netbeans_25-1_all.deb
+Description: Custom package apache-netbeans
 
 Package: balena-etcher
-Version: 1.0
+Version: 2.1.4
 Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/balena-etcher_2.1.4_amd64.deb
 Size: 123924010
 MD5sum: a6e447ec4d343c1e63d5d031992f2ff0
@@ -35,12 +32,11 @@ SHA1: 1bc00364e107eb67aa1e12079f3eeca575c9d07c
 SHA256: c635213bb0724eb789bc036819cd1adb7d0693fd3bd26622811a8f7bd25e9252
 Section: custom
 Priority: optional
-Description: Custom package balena-etcher_2.1.4_amd64.deb
+Description: Custom package balena-etcher
 
 Package: code
-Version: 1.0
+Version: 1.104.1-1758154125
 Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/code_1.104.1-1758154125_amd64.deb
 Size: 113131966
 MD5sum: d5145474e9e7aa437f0ca474bd6f2b45
@@ -48,12 +44,11 @@ SHA1: c5f873a38a3805b765ebebb1950fd22242acba72
 SHA256: b2671b1d820def4c72e791e714c4af83caee684eedb2c0ae1f0590861b0ee71a
 Section: custom
 Priority: optional
-Description: Custom package code_1.104.1-1758154125_amd64.deb
+Description: Custom package code
 
-Package: freedownloadmanager.deb
-Version: 1.0
+Package: freedownloadmanager
+Version: 6.29.1.6392
 Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/freedownloadmanager.deb
 Size: 42515296
 MD5sum: 5c0825ea05e7dfa38942603d89da59e9
@@ -61,12 +56,11 @@ SHA1: 2ee8dc2ce78d3448ea6cbe30bbaef027689a98e1
 SHA256: 212f9616da14eb95cbfd47ecf9ffa0b6daba0413e00d22c5294b6559f36dc493
 Section: custom
 Priority: optional
-Description: Custom package freedownloadmanager.deb
+Description: Custom package freedownloadmanager
 
 Package: google-chrome-stable
-Version: 1.0
+Version: 139.0.7258.66-1
 Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/google-chrome-stable_current_amd64.deb
 Size: 118582344
 MD5sum: 84cfdfd93b061a21601627b75ba00790
@@ -74,12 +68,11 @@ SHA1: 006436f06b241fdd428d868446ac3e231c764200
 SHA256: 0d8d6116560a55259162e2b50c66aac6be31fa41265e7aff1ac2810b7f6b0b19
 Section: custom
 Priority: optional
-Description: Custom package google-chrome-stable_current_amd64.deb
+Description: Custom package google-chrome-stable
 
-Package: intellij.deb
-Version: 1.0
+Package: intellij-idea-community
+Version: 2024.2.2
 Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/intellij.deb
 Size: 659828290
 MD5sum: b0cb256fcdb53fae1eeaaf2d38659b1b
@@ -87,12 +80,11 @@ SHA1: f37fec65652fe7f37b1ef3fb8e8075f1e481fbb1
 SHA256: 8afb75eb7a3225afb5b9cfdc630f2039e6ab0344b417f54c91d8324a74644ba5
 Section: custom
 Priority: optional
-Description: Custom package intellij.deb
+Description: Custom package intellij-idea-community
 
-Package: redpanda-cpp-ubuntu2020
-Version: 1.0
+Package: redpanda-cpp
+Version: 0.14.2-1
 Architecture: amd64
-Maintainer: DarkMatter <darkmatter@example.com>
 Filename: https://github.com/mrshah63/my-apt-repo/releases/download/v1.0/redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
 Size: 2453180
 MD5sum: a9784fef18c725fe46b360820f1cd5c3
@@ -100,5 +92,5 @@ SHA1: aa5681ef0c4c9f30174264030774a283b4c0bb5a
 SHA256: 6a00948f20bfed49f0dcdaca0f29f57679ee70bd6103c66ecdea2245a76d5264
 Section: custom
 Priority: optional
-Description: Custom package redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
+Description: Custom package redpanda-cpp
 
