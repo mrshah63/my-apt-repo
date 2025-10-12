@@ -1,96 +1,143 @@
 Package: anydesk
 Version: 7.0.2
 Architecture: amd64
-Filename: releases/download/v1.0/anydesk_7.0.2-1_amd64.deb
+Maintainer: AnyDesk Software GmbH <linux-support@anydesk.com>
+Installed-Size: 38952
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk-3-0, libstdc++6 (>= 4.1.1), libx11-6, libxcb-shm0, libxcb1, libpango-1.0-0, libcairo2, libxrandr2 (>= 1.3), libx11-xcb1, libxtst6, libxfixes3, libxdamage1, libxkbfile1, libgl1
+Filename: pool/main/anydesk_7.0.2-1_amd64.deb
 Size: 14706372
 MD5sum: cdcdc92faa55781086cf9de0b70a569c
 SHA1: 2e7ec191a199de59e46d24d1f9fbd20f2583faf9
 SHA256: 74170b9f16538576b9f8390c5ab3e5810ef2167ba7c72ed1b63f8ed32c8ebdb7
-Section: custom
+Section: net
 Priority: optional
-Description: Custom package anydesk
+Homepage: https://anydesk.com/
+Description: The fastest remote desktop software on the market.
+  It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
 
 Package: apache-netbeans
 Version: 25-1
 Architecture: all
-Filename: releases/download/v1.0/apache-netbeans_25-1_all.deb
+Maintainer: NetBeans Mailing List <users@netbeans.apache.org>
+Recommends: java11-sdk
+Filename: pool/main/apache-netbeans_25-1_all.deb
 Size: 433072012
 MD5sum: ed8be38eee09ea61580c4e0ad969e394
 SHA1: bad21fb4058365802c044535ca090a76a6af13b3
 SHA256: 56b5980ad08f726cd4ab150cf9cce202688be6e4784a48436d69dd77500fb09e
-Section: custom
 Priority: optional
-Description: Custom package apache-netbeans
+Description: Package of Apache NetBeans 25.
 
 Package: balena-etcher
 Version: 2.1.4
 Architecture: amd64
-Filename: releases/download/v1.0/balena-etcher_2.1.4_amd64.deb
+Maintainer: Balena Ltd. <hello@balena.io>
+Installed-Size: 419898
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libasound2, libatk1.0-0, libc6, libcairo2, libcups2, libdbus-1-3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, liblzma5, libnspr4, libpango1.0-0 | libpango-1.0-0, libstdc++6, libx11-6, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrandr2, libxrender1, libxss1, polkit-1-auth-agent | policykit-1-gnome | polkit-kde-1
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: pool/main/balena-etcher_2.1.4_amd64.deb
 Size: 123924010
 MD5sum: a6e447ec4d343c1e63d5d031992f2ff0
 SHA1: 1bc00364e107eb67aa1e12079f3eeca575c9d07c
 SHA256: c635213bb0724eb789bc036819cd1adb7d0693fd3bd26622811a8f7bd25e9252
-Section: custom
+Section: utils
 Priority: optional
-Description: Custom package balena-etcher
+Homepage: https://github.com/balena-io/etcher
+Description: Flash OS images to SD cards and USB drives, safely and easily.
+ Etcher is a powerful OS image flasher built with web technologies to ensure
+ flashing an SDCard or USB drive is a pleasant and safe experience. It protects
+ you from accidentally writing to your hard-drives, ensures every byte of data
+ was written correctly and much more.
 
 Package: code
 Version: 1.104.1-1758154125
 Architecture: amd64
-Filename: releases/download/v1.0/code_1.104.1-1758154125_amd64.deb
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 446270
+Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.2.5), libc6 (>= 2.25), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: pool/main/code_1.104.1-1758154125_amd64.deb
 Size: 113131966
 MD5sum: d5145474e9e7aa437f0ca474bd6f2b45
 SHA1: c5f873a38a3805b765ebebb1950fd22242acba72
 SHA256: b2671b1d820def4c72e791e714c4af83caee684eedb2c0ae1f0590861b0ee71a
-Section: custom
+Section: devel
 Priority: optional
-Description: Custom package code
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
 
 Package: freedownloadmanager
 Version: 6.29.1.6392
 Architecture: amd64
-Filename: releases/download/v1.0/freedownloadmanager.deb
+Maintainer: Freedownloadmanager Team <support@freedownloadmanager.org>
+Depends: openssl, xdg-utils, ffmpeg, bubblewrap
+Filename: pool/main/freedownloadmanager.deb
 Size: 42515296
 MD5sum: 5c0825ea05e7dfa38942603d89da59e9
 SHA1: 2ee8dc2ce78d3448ea6cbe30bbaef027689a98e1
 SHA256: 212f9616da14eb95cbfd47ecf9ffa0b6daba0413e00d22c5294b6559f36dc493
-Section: custom
+Section: net
 Priority: optional
-Description: Custom package freedownloadmanager
+Homepage: https://www.freedownloadmanager.org/
+Description: FDM is a powerful modern download accelerator and organizer.
+ It is a powerful modern cross-platform download accelerator and organizer for Windows, Mac, Linux, Android.
 
 Package: google-chrome-stable
 Version: 139.0.7258.66-1
 Architecture: amd64
-Filename: releases/download/v1.0/google-chrome-stable_current_amd64.deb
+Maintainer: Chrome Linux Team <chromium-dev@chromium.org>
+Installed-Size: 377839
+Pre-Depends: dpkg (>= 1.14.0)
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.35), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2)
+Provides: www-browser
+Filename: pool/main/google-chrome-stable_current_amd64.deb
 Size: 118582344
 MD5sum: 84cfdfd93b061a21601627b75ba00790
 SHA1: 006436f06b241fdd428d868446ac3e231c764200
 SHA256: 0d8d6116560a55259162e2b50c66aac6be31fa41265e7aff1ac2810b7f6b0b19
-Section: custom
+Section: web
 Priority: optional
-Description: Custom package google-chrome-stable
+Description: The web browser from Google
+ Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
 
 Package: intellij-idea-community
 Version: 2024.2.2
 Architecture: amd64
-Filename: releases/download/v1.0/intellij.deb
+Maintainer: Syed Hamza Ali <your_email@example.com>
+Filename: pool/main/intellij.deb
 Size: 659828290
 MD5sum: b0cb256fcdb53fae1eeaaf2d38659b1b
 SHA1: f37fec65652fe7f37b1ef3fb8e8075f1e481fbb1
 SHA256: 8afb75eb7a3225afb5b9cfdc630f2039e6ab0344b417f54c91d8324a74644ba5
-Section: custom
+Section: devel
 Priority: optional
-Description: Custom package intellij-idea-community
+Description: IntelliJ IDEA Community Edition
+ A powerful, open-source IDE for Java and Kotlin development from JetBrains.
 
 Package: redpanda-cpp
 Version: 0.14.2-1
 Architecture: amd64
-Filename: releases/download/v1.0/redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
+Maintainer: royqh1979@gmail.com
+Installed-Size: 6566
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 9), gcc, g++, make, gdb, gdbserver, qterminal
+Filename: pool/main/redpanda-cpp-ubuntu2020_0.14.2-1_amd64.deb
 Size: 2453180
 MD5sum: a9784fef18c725fe46b360820f1cd5c3
 SHA1: aa5681ef0c4c9f30174264030774a283b4c0bb5a
 SHA256: 6a00948f20bfed49f0dcdaca0f29f57679ee70bd6103c66ecdea2245a76d5264
-Section: custom
+Section: devel
 Priority: optional
-Description: Custom package redpanda-cpp
+Homepage: https://github.com/royqh1979/RedPanda-CPP
+Description: A lightweight but powerful C/C++ IDE
+ Red Panda C++ (Old name Red Panda Dev-C++ 7) is a full featured C/C++ IDE.
+ It's the succesor of Red Panda Dev-C++ 6, which is developed by Delphi 7 and
+ can only running under Windows.
 
